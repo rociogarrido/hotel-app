@@ -10,4 +10,8 @@ export class ReservationFormComponent {
 
   reservationForm: FormGroup = new FormGroup({});
 
+  onSubmit() {
+    
+  }
+
 }

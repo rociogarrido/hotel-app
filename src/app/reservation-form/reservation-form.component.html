@@ -2,14 +2,6 @@
   <div>
     <label>Check-In Date:</label>
     <input type="date" formControlName="checkInDate" />
-    <small
-      *ngIf="
-        reservationForm.get('checkInDate')?.invalid &&
-        reservationForm.get('checkInDate')?.touched
-      "
-    >
-      Check-In Date is required.
-    </small>
   </div>
 
   <div>

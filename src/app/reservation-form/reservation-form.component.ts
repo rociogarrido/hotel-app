@@ -29,7 +29,6 @@ export class ReservationFormComponent implements OnInit {
     });
 
     let id = this.activatedRoute.snapshot.paramMap.get('id');
-    console.log(id);
 
     if (id) {
       let reservation = this.reservationService.getReservation(id);
